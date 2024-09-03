@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+.title {
+  margin-top: 100px;
+}
+.text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.moves {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+button {
+  border: none;
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  opacity: 0.7;
+}
+#rock {
+  background-color: #ff0000;
+}
+#paper {
+  background-color: #2196f3;
+}
+#scissors {
+  background-color: #4caf50;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.result {
+  margin-bottom: 10px;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.score1 span {
+  color: #2196f3;
+}
+.score2 span {
+  color: #ff0000;
+}
